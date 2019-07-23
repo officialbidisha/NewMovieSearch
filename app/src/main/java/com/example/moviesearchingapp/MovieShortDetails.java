@@ -1,6 +1,7 @@
 package com.example.moviesearchingapp;
 
 import android.graphics.Bitmap;
+import android.graphics.drawable.Drawable;
 
 public class MovieShortDetails {
     private String title;
@@ -12,7 +13,9 @@ public class MovieShortDetails {
         this.poster = poster;
         this.description = description;
     }
+    public MovieShortDetails() {
 
+    }
     public String getTitle() {
         return title;
     }
@@ -36,4 +39,5 @@ public class MovieShortDetails {
     public void setDescription(String description) {
         this.description = description;
     }
+
 }
